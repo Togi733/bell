@@ -1,0 +1,192 @@
+:root {
+	--base-color: #199EB8;
+}
+
+.base {
+	background-color: var(--base-color)!important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#main {
+	background-image: url(../images/cover.jpg);
+	height: 100vh;
+	min-height: 400px;
+	background-size: cover;
+
+}
+.main-cover {
+	background-color: rgba(0,0,0,0.65);
+	height: 100%;
+	padding: 170px 0;
+}
+#main img:hover {
+	opacity: 0.8;
+}
+.start-btn {
+	border-radius: 25px;
+	padding: 15px 40px;
+}
+.start-btn:hover {
+	background-color: #e04e00!important;
+}
+
+.stats-col {
+	width: 150px;
+	height: 150px;
+	border: 6px solid var(--base-color);
+	position: relative;
+	padding-top: 50px;
+}
+.stats-num {
+	background-color: #E04F00;
+    color: white;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: -10px;
+    top: -25px;
+    padding-top: 15px;
+}
+
+#about {
+	padding: 100px 0 80px;
+}
+.paralax {
+    background-image: url(../images/parallax-bg.jpg);
+    background-attachment: fixed;
+	padding: 100px 0 0;
+}
+.features {
+	color: var(--base-color);
+	padding: 100px 0;
+}
+.features-icon-cont {
+	background-color: var(--base-color);
+	width: 70px;
+	height: 70px;
+	line-height: 4;
+}
+.features p{
+	color: #999;
+}
+.cal {
+	padding: 20px 0;
+}
+.cal p {
+	opacity: .75;
+}
+.call-title {
+	margin-bottom: -60px !important;
+}
+.button-buy {
+	border: 3px solid white;
+    border-radius: 25px;
+    padding: 10px 60px;
+    color: white;
+}
+.button-buy:hover {
+	background-color: white;
+	color: var(--base-color)
+}
+.portfolio {
+	color: var(--base-color);
+	padding: 100px 0 60px;
+}
+
+.row {
+	margin-right: 0 !important;
+	margin-left: 0 !important;  
+}
+.portfolio p {
+	color: #333;
+}
+.portfolio-cover {
+	background-color: rgba(0,0,0,0.8);
+	opacity: 0;
+}
+.portfolio-cover:hover {
+	opacity: 1;
+}
+p.card-text.text-center {
+    color: white;
+    opacity: .75;
+}
+#team {
+	padding: 100px 0;
+}
+.team-cover {
+	background-color: rgba(0,0,0,0.8);
+	opacity: 0;
+}
+.team .card:hover .team-cover{
+	opacity: 1;
+}
+
+.team .card:hover .card-body{
+	background-color: var(--base-color);
+	color: white !important;
+}
+.card-body {
+	z-index: 1;
+	cursor: pointer;
+}
+.card-title {
+    cursor: pointer;
+}
+.card-text {
+    opacity: .75;
+}
+.form-btn {
+	background-color: var(--base-color);
+}
+.form-btn:hover {
+	opacity: 0.8;
+}
+.contact {
+	padding: 100px 0;
+	background-color: #F7F7F7;
+}
+footer {
+	background-color: #000;
+	padding: 20px 0;
+}
+
+.copyright-text {
+    padding: 0.5rem 0;
+}
+
+.scroll-top {
+	position: fixed;
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+    right: 20px;
+    bottom: 20px;
+    background-color: var(--base-color);
+	z-index: 9999;
+	cursor: pointer;
+	transition: .3s opacity;
+}
+.scroll-top:hover {
+    opacity: .8;
+}
+h2 {
+	padding-bottom: 65px;
+}
+h3 {
+	padding-bottom: 20px;
+}
+.portfolio-text {
+	margin-bottom: 40px;
+    margin-top: -40px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+p {
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+}

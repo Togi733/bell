@@ -1,0 +1,13 @@
+/** {
+    all: unset;
+}
+
+base, basefont, datalist, head, meta, script, style, title, noembed, param, template {
+    display: none;
+}*/
+
+
+* {
+	margin, padding: 0;
+	/*box-sizing: border-box;*/
+}
